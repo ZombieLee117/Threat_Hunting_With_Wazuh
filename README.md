@@ -32,19 +32,6 @@ An interactive, self-paced threat hunting training platform built around real-wo
 
 ---
 
-## Deploy to GitHub Pages
-
-1. Create a new public GitHub repository
-2. Upload `index.html` to the root of the repo
-3. Go to **Settings → Pages → Source** → set branch to `main`, folder to `/ (root)` → Save
-4. Your site will be live at `https://yourusername.github.io/repo-name` within 60 seconds
-
-## Run Locally
-
-Open `index.html` in any modern browser. No server, no dependencies, no install required.
-
----
-
 ## Log Data
 
 All IoC values in the simulated log database (IP addresses, usernames, filenames, timestamps, hashes) are fictional and do not match any real environment. Attack patterns, Wazuh rule IDs, Sysmon event IDs, and KQL field names are accurate to a real Wazuh deployment.
